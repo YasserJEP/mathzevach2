@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos Matemáticos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Matemáticas Divertidas</h1>
+    </header>
+
+    <main>
+        <!-- Sección de Juegos -->
+        <section class="juego" id="aritmetica">
+            <h2>Aritmética Rápida</h2>
+            <div id="pregunta"></div>
+            <input type="number" id="respuesta" placeholder="Tu respuesta">
+            <button onclick="verificarRespuesta()">Comprobar</button>
+            <p id="resultado"></p>
+        </section>
+
+        <!-- Sección de Simulaciones (ejemplo futuro) -->
+    </main>
+
+    
+
+    <script src="script.js"></script>
+
+<section class="juego">
+    <h2>Área de un Círculo</h2>
+    <canvas id="circuloCanvas" width="200" height="200"></canvas>
+    <input type="range" id="radio" min="0" max="100" value="50">
+    <p>Radio: <span id="valorRadio">50</span></p>
+    <p>Área: <span id="area">7854</span></p>
+    <script src="script_juego_círculo.js"></script>
+</section>
+
+    <footer>
+        <p>Creado por [Yásser Echávez]</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simulaciones Matemáticas</title>
+</head>
+<body>
+    <h1>Simulación de Fracciones</h1>
+    <!-- Código de PhET -->
+    <iframe src="https://phet.colorado.edu/sims/html/fraction-matcher/latest/fraction-matcher_es.html" 
+            width="800" height="600" 
+            scrolling="no" 
+            allowfullscreen>
+    </iframe>
+</body>
+</html>
